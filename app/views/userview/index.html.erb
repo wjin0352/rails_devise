@@ -1,12 +1,13 @@
-<h3>Userview Controller Index page!!!</h3>
+<h3>This is the Userview Controller Index page!!!</h3>
+<p align="left"><%= image_tag current_user.gravatar_url %></p>
+
 <h3>This is <%= current_user.email %>'s page</h3>
 
 <center><h4>images</h4></center><br>
-<p align="center">
+<p align="center" id="image_block" >
   <%= image_tag('cat.gif', :size => "240x220")%>
   <%= image_tag('crazy.png', :size => "240x220")%>
   <%= image_tag('haha.jpg', :size => "240x220")%>
   <%= image_tag('lights.jpg', :size => "240x220")%>
-
 </p>
 

@@ -18,3 +18,9 @@
     padding-left: 10px;
     color:#337ab7;
 }
+
+#image_block  {
+    padding: 30px 30px;
+    margin-right: 10px;
+    background-color: #555;
+}
